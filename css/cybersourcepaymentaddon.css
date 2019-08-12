@@ -1,0 +1,29 @@
+.no-close .ui-dialog-titlebar-close {
+    display: none;
+}
+
+#sopIframeCbox {
+    display: none;
+    overflow: hidden;
+}
+
+#sopRequestIframe {
+    width: 100%;
+    height: 340px;
+    border: 0;
+}
+
+.ccImage {
+    width: 68px;
+    height: 40px
+}
+
+.dcImage {
+    width: 145px;
+    height: 40px
+}
+
+.cs-help-block {
+    display: block;
+    color: #c53131;
+}

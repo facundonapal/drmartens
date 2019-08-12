@@ -1,0 +1,11 @@
+.widget-title {
+	font-family: 'Trade Gothic Bold','Arial','SansSerif';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    text-align: center;
+}
+
+.ps-container {
+    padding: 0 29px !important;
+}

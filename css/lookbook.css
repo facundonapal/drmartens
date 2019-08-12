@@ -1,0 +1,119 @@
+/*=========================
+    LOOKBOOK STYLES
+==========================*/
+
+.widget-title {
+    font-family: "Interstate Reg", Interstate, Arial, SansSerif;
+    color: rgb(20, 20, 20);
+    font-size: 48px;
+}
+
+/****************************/
+
+.ps-gallery.ps-theme-modern {
+    position: relative; 
+    top: -35px;
+}
+.wrapper-widgets {
+    margin: 10px 0;
+    width: 1254px;
+}
+
+.tabss {
+    text-align: center !important;
+}
+
+.tabss input[type=radio] {
+    display:none;
+}
+
+input[type=radio]+label:before, .input[type=radio]+label:before {
+    display: none !important;
+}
+
+.tabss label {
+    
+    width: 24.5% !important;
+    text-align: center;
+    line-height: 2;
+    cursor: pointer;
+    transition: border-bottom 1s ease;
+    border-bottom: 1px transparent solid;
+    display: inline-block;
+}
+
+.tabss label:hover {
+    font-weight: bolder;
+    zoom: 1;
+    color: #041c2c;
+}
+
+
+
+.tabss [id^="tab"]:checked + label {
+    /*border-bottom: 1px solid lightgrey;*/
+    font-weight: bold;
+}
+
+.tab-style {
+    font-family: "Trade Gothic Light", Arial, SansSerif;
+    font-style: normal;
+    margin: 0 48px 6px 0 !important;
+    font-size: 18px;
+    text-transform: uppercase;
+    /*font-weight: 100;*/
+    display: inline-grid !important;
+    color: #000;
+}
+
+.tab-content {
+    display: none;
+    width: 100%;
+    overflow: visible !important;
+}
+
+ #tab1:checked ~ #tab-content1,
+ #tab2:checked ~ #tab-content2,
+ #tab3:checked ~ #tab-content3,
+ #tab4:checked ~ #tab-content4{
+    display: block;
+}
+
+#widget-container1 .ps-images {
+    grid-template-columns: repeat(auto-fill,150px)!important;
+    grid-gap: 10px!important;
+}
+
+#widget-container2 .ps-images {
+    grid-template-columns: repeat(auto-fill,calc(33% - 10px))!important;
+    grid-gap: 10px!important;
+}
+
+#widget-container3 .ps-images {
+    grid-template-columns: repeat(auto-fill,calc(33% - 10px))!important;
+    grid-gap: 10px!important;
+}
+
+#widget-container4 .ps-images {
+    grid-template-columns: repeat(auto-fill,calc(33% - 10px))!important;
+    grid-gap: 10px!important;
+}
+
+/**********************/
+
+.ps-container {
+    margin-top: 15px;
+}
+
+/* .ps-theme-modern .ps-note-add-pics {
+    position: relative;
+    top: -30px;
+} */
+
+/* .ps-theme-modern .ps-note-add-pics-submit {
+    font-size: 14px !important;
+} */
+
+.ps-hotspot {
+    display: none;
+}

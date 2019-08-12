@@ -1,0 +1,7 @@
+.widget-wrapper {
+	padding: 0 65px;
+}
+
+.ps-carousel.ps-theme-modern .ps-carousel-slider.ps-slider-horizontal .ps-img-container {
+	height: 304px !important;
+}
